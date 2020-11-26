@@ -22,7 +22,7 @@ public class LoginTests {
         Configuration.browser="safari";
         Configuration.baseUrl = "http://automationpractice.com/index.php";
         Configuration.startMaximized = true;
-        Configuration.timeout = 10;
+        Configuration.timeout = 10000;
       //  SelenideLogger.addListener(new AllureSele);
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
